@@ -1,7 +1,5 @@
 choixMaitreDeJeu = [0, 0, 0, 0]
 choixJoueur = []
-<<<<<<< HEAD
-couleurs = ["Blanc", "Bleu", "Rouge", "Vert", "Jaune", "Orange", "Brun"]
 playAgain = True
 
 print("Sélectionner un mode de jeu.\n1. Versus CPU\n2. Versus Player")
@@ -25,8 +23,6 @@ elif modeDeJeu == 2:
             
 =======
 
-
-couleurs = ["Blanc", "Bleu", "Rouge", "Vert", "Jaune", "Orange", "Brun"]
 # collection du choix de niveau
 level = ["1: T'es null", "2: Facile", "3: Moyen", "4: Difficile", "5: Connard"]
 lvl = 0
