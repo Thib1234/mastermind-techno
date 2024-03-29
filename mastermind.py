@@ -3,7 +3,7 @@ choixJoueur = []
 
 
 couleurs = ["Blanc", "Bleu", "Rouge", "Vert", "Jaune", "Orange", "Brun"]
-level = ["T'es null", "Facile", "Moyen", "Difficile", "Connard"]
+level = ["1: T'es null", "2: Facile", "3: Moyen", "4: Difficile", "5: Connard"]
 
 lvl = 0
 
