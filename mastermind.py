@@ -1,6 +1,7 @@
 choixMaitreDeJeu = [0, 0, 0, 0]
 choixJoueur = []
 couleurs = ["Blanc", "Bleu", "Rouge", "Vert", "Jaune", "Orange", "Brun"]
+playAgain = True
 
 print("Sélectionner un mode de jeu.\n1. Versus CPU\n2. Versus Player")
 modeDeJeu = int(input())
