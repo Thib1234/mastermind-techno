@@ -42,5 +42,4 @@ elif modeDeJeu == 2:
                 choixMaitreDeJeu[i] = choix
             else:
                 print("Veuillez choisir une couleur unique.")
-    
 #def verifCombinaison(choixJoueur):rouge
