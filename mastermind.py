@@ -14,25 +14,26 @@ choixLevel =  int(input('chiffre2: '))
 # nombre d'essai a degrémenter dans la boucle que vous avez crée de votre coder
 match choixLevel:
     case 1:
-        nombreEssai = -1
+        essais = -1
     case 2:
-        nombreEssai = 20
+        essais = 20
     case 3:
-        nombreEssai = 15
+        essais = 15
     case 4:
-        nombreEssai = 10
+        essais = 10
     case 5:
-        nombreEssai = 5
+        essais = 5
 
 # choix des couleur avec une boucle, pour agmenter le nombre de couleur en fonction des difficulterplayAgain = True
+validationMode = True
 
-print("Sélectionner un mode de jeu.\n1. Versus CPU\n2. Versus Player")
-modeDeJeu = int(input())
-if modeDeJeu == 1:
-    pass # Mode CPU
-elif modeDeJeu == 2:
-    print("Le Maitre de Jeu doit choisir une combinaison de 4 couleurs différentes parmi les suivantes : ")
-    print(couleurs)
+while validationMode:
+
+    modeDeJeu = int(input("Choisissez le mode de jeu (1 pour Mode CPU, 2 pour Mode Maître de Jeu) : "))
+    if modeDeJeu in [1, 2]:
+        validationMode = False
+    else:
+        print("Veuillez choisir 1 ou 2.")
 
     for i in  range(0, 4):
         while choixMaitreDeJeu[i] == 0:
