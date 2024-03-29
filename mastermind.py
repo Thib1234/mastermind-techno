@@ -35,6 +35,12 @@ while validationMode:
     else:
         print("Veuillez choisir 1 ou 2.")
 
+if modeDeJeu == 1:
+    pass
+elif modeDeJeu == 2:
+    print("Le Maitre de Jeu doit choisir une combinaison de 4 couleurs différentes parmi les suivantes : ")
+    print(couleurs)
+
     for i in  range(0, 4):
         while choixMaitreDeJeu[i] == 0:
             print("\nChoisissez la couleur",i+1,":")
